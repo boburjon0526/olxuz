@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper1{
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header{
+    width: 100%;
+    height: 75px;
+    background-color: #002f34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.block{
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 900px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.olxuz{
+    width: 100px;
+    height: 65px;
+}
+.olxuz img{
+    margin-left: 40px;
+    width: 100px;
+    height: 65px;
+}
+    
+.til p{
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.til b{
+    color: #fff;
+    cursor: pointer;
+}
+.til p b{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.wrapper2{
+    width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.wrapper2 img{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-right: 5px;
+}
+.wrapper2 p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+    
+}
+.wrapper2 p:hover{
+    color: #7F9799;
+    transition: 0.2s linear;
+}
+.like{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.like img{
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+}
+.Imaccount{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+.Imaccount p:hover{
+    color: #7F9799;
+    transition: 0.2s linear;
+}
+.Block2{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.Block2 img{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+    cursor:pointer;
+}
+.Im_account p{
+    color: #fff;
+    font-size: 18px;
+}
+.Im_account p:hover{
+    color: #7F9799;
+    transition: 0.2s linear;
+}
+.border{
+    width: 120px;
+    height: 50px;
+    border: 5px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ .block3 button{
+    background-color: transparent;
+    font-size: 18px;
+    color: #0fe7ff;
+    border: none;
+    font-weight: 400;
+    transition: 0.2s linear;
+}
+ .block3{
+    width: 100%;
+    height: 100%;
+    background-color: #d4d4d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s linear;
+}
+.block3:hover{
+    background-color: #002f34;
+    color: #ffffff;
+    transition: 0.4s linear;
+}
+.block3{
+    transition: 0.4s linear;
+}
+.block3 button:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.block3:hover{
+    color: #ffffff;
+}
+.search_block{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(129, 126, 126, 0.103);
+}
+.search_block2{
+    width: 1100px;
+    height: 65px;
+}
+.search_block3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.search_block3 input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 22px;
+    margin-left: 20px;
+    outline: none;
+}
+.search_img img{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.location{
+    width: 260px;
+    height: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+.location img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.location p{
+    cursor: pointer;
+}
+
+.box{
+    width: 400px;
+    height: 100px;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 200px;
+    cursor: pointer;
+
+}
+
+.box2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+}
+.box3 p:hover{
+    background-color: rgb(68, 68, 68);
+    transition: 0.1s linear;
+    cursor: pointer;  
+}
+.box3{
+    width: 130px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  
+}
+.cil_Img{
+   width: 70%;
+   height: 55%;
+   border-radius: 100%;
+   overflow: hidden;
+   border: 2px solid #002f34; 
+}
+.cil_Img img{
+    width: 100%;
+    height: 100%;
+}
+.box3 p{
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.katta_block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: rgb(238, 238, 238);
+}
+.menu{
+    width: 400px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.menu1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 20px;
+   
+}
+.menu1 div{
+    width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 2px solid rgb(212, 212, 212);
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.menu2 img{
+    padding-top: auto;
+    width: 100%;
+    height: 200px;
+
+}
+.menu2 h1{
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.menu2 p{
+    padding: 10px;
+    font-size: 14px;
+    
+}
+.header2{
+   width: 100%;
+   height: 80px;
+   background-color: #002f34;
+   margin-top: 50px;
+   margin-bottom: 50px;
+    
+}
